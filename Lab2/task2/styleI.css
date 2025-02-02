@@ -1,0 +1,190 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, sans-serif;
+}
+
+@font-face {
+    font-family: 'Billabong';
+    src: url('fonts/Billabong.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.first-block {
+    background-color: rgb(255, 255, 255);
+    width: 20%;
+    margin: 190px auto;
+    padding: 20px;
+    height: 45vh auto;
+    margin-left: auto;
+    margin-right: 350px;
+    margin-top: 8%;
+    border: 1px solid rgb(183, 181, 181);
+    text-align: center;
+}
+
+#instagramTitle {
+    font-family: 'Billabong', cursive;
+    font-size: 50px;
+}
+
+.line-with-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+}
+
+.line {
+    flex-grow: 1;
+    height: 1px;
+    background-color: rgb(91, 83, 83);
+}
+
+.text {
+    margin: 0 10px;
+}
+
+.second-block {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    margin: 5px auto;
+    padding-top: -100px auto;
+}
+
+.inner1 {
+    width: 87%;
+    margin: 10px auto;
+    padding-left: 2;
+    padding-right: 2;
+    margin: 20px auto;
+}
+
+.inner2 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(28, 27, 27);
+    width: 95%;
+    margin: 5px auto;
+    margin-left: 10px;
+    padding: 10px;
+    border: 1px solid rgb(149, 156, 156);
+    font-size: 15px;
+}
+
+.facebookClick {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.facebook-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(0, 89, 255);
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.facebook-link img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.facebook-link:hover {
+    color: darkblue;
+}
+
+.innerVhod {
+    background-color: rgb(8, 94, 215);
+    color: white;
+    width: 95%;
+    margin: 0px auto;
+    margin-left: 10px;
+    margin-right: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.innerVhod:hover {
+    color: rgb(60, 131, 213);
+}
+
+.forgotPassword {
+    text-decoration: none;
+    color: rgb(78, 90, 112);
+    text-align: center;
+    margin-top: -5px;
+}
+
+.forgotPassword:hover {
+    color: darkblue;
+}
+
+.registrationBlock {
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    height: 5dvh;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 770px;
+    margin-top: -170px;
+    border: 1px solid rgb(183, 181, 181);
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+#registration {
+    text-decoration: none;
+    color: rgb(3, 90, 253);
+    font-weight: bold;
+}
+
+#registration:hover {
+    color: darkblue;
+}
+
+.appInstallBlock {
+    background-color: rgb(255, 255, 255);
+    width: 22%;
+    height: 7dvh;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 770px;
+    margin-top: -2px;
+    text-align: center;
+}
+
+.mainImage {
+    width: 400px;
+    height: 600px;
+    padding: 10px;
+    margin: 20px;
+    margin-left: 130px;
+    margin-top: -330px;
+}
+
+.CreateAccount {
+    background-color: rgb(48, 152, 24);
+    color: white;
+    width: 45%;
+    height: 17%;
+    margin: 30px auto;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    text-align: center;
+    cursor: pointer;
+    font-weight: 600;
+}
