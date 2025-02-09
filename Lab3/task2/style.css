@@ -1,0 +1,89 @@
+body{
+    background: white;
+    min-height: 100vh;
+    padding: 20px;
+}
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+}
+
+h1 {
+    color: #040404;
+    margin-bottom: 25px;
+    text-align: left;
+    font-size: 2em;
+}
+
+.input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+#taskInput {
+    flex: 1;
+    padding: 12px 15px;
+    border: 2px solid #e0e0e0;
+    font-size: 16px;
+
+}
+
+
+
+#addTaskButton {
+    padding: 12px 25px;
+    background: #0022e6;
+    border: none;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#addTaskButton:hover {
+    background: #2980b9;
+}
+
+#taskList {
+    list-style: none;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #f8f9fa;
+    margin-bottom: 10px;
+}
+
+
+
+input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+span {
+    flex: 1;
+    font-size: 16px;
+    color: #2c3e50;
+    transition: color 0.3s ease;
+}
+.delete-button {
+    width: 32px;
+    height: 32px;
+    background-image: url('delete.png'); /* Replace with actual path */
+    background-size: cover;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-button:hover {
+    background: #c0392b;
+}
+
