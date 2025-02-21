@@ -1,0 +1,33 @@
+<section class="listing">
+    <!-- Clickable Image & Name -->
+    <a class="link" [href]="productD.url" target="_blank">
+      <img class="listing-photo" [src]="productD.photo" alt="{{ productD.name }}" />
+      <h2 class="listing-heading">{{ productD.name }}</h2>
+    </a>
+
+    <!-- Rating & Description -->
+    <p class="listing-location">Rating: {{ productD.rating }}</p>
+    <p class="listing-description">{{ productD.descriptions }}</p>
+
+    <!-- Like Button -->
+    <div 
+      class="like-section" 
+      [class.liked]="isLiked"
+      (click)="toggleLike($event)"
+    >
+      <img 
+        src="/like.png" 
+        alt="Like" 
+        class="like-icon"
+      />
+      <span class="like-count">{{ productD.like }}</span>
+    </div>
+
+    <!-- Share Button -->
+    <div >
+      <a [href]="getTelegramShareUrl(productD.url)" target="_blank" class="share-button">
+        <img src="/share.png" alt="Share on Telegram" class="share-icon" />
+      </a>
+    </div>
+    
+  </section>
